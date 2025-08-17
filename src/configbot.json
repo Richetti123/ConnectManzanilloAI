@@ -1,29 +1,54 @@
 {
   "modoPagoActivo": false,
-  "mensajeBienvenida": "¡Hola {user}! Soy PayBalance un asistente virtual. ¿En qué puedo ayudarte hoy?",
+  "mensajeBienvenida": "¡Hola {user}! Soy ConnectManzanillo AI un asistente virtual. ¿En qué puedo ayudarte hoy?",
   "mensajeDespedida": "¡Hasta pronto! Esperamos verte de nuevo.",
   "faqs": {
-    "michi_bot_mensual": {
-      "pregunta": "MichiBot exclusivo (pago mensual)",
-      "respuesta": "MichiBot es un bot de WhatsApp con gestión de grupos, descargas de redes sociales (Instagram, Facebook, TikTok, YouTube), inteligencia artificial (ChatGPT o Gemini), stickers y más de 305 comandos.",
-      "precio": "El costo del MichiBot exclusivo es de 10 soles peruanos, 3 mil pesos argentinos, 3 mil pesos chilenos, 80 pesos mexicanos, o 3 dólares."
+    "grupo_vip_conect_manzanillo": {
+      "pregunta": "Grupo VIP Conect Manzanillo – Comunicados",
+      "respuesta": "📢 Únete a Conect Manzanillo – Comunicados\n\nPara formar parte de nuestro grupo exclusivo, realiza tu pago de membresía mensual por tan solo $50 MXN.\nCon tu suscripción tendrás acceso ilimitado a toda la información durante 30 días.\nAdemás, si quieres dar a conocer tu negocio, servicio o anuncio, por $100 MXN adicionales te ofrecemos un espacio publicitario en nuestro Canal Conect Manzanillo, donde podremos promocionar y difundir tu contenido a toda nuestra audiencia.\n💳 Aprovecha esta oportunidad y mantente siempre informado.",
+      "precio": "$50 mensuales"
     },
-    "bot_personalizado_mensual": {
-      "pregunta": "Bot personalizado (pago mensual)",
-      "respuesta": "Es un bot de WhatsApp completamente personalizado con tus datos: foto/logo, redes sociales, canal de WhatsApp, etiquetas generales y nombre del bot. Que se paga mensualmente y que contiene comandos de gestión de grupos, descargas de redes sociales (Instagram, Facebook, TikTok, YouTube), inteligencia artificial (ChatGPT o Gemini), stickers y más de 305 comandos.",
-      "precio": "El costo del Bot personalizado (pago mensual) es de 28 soles peruanos, 8 mil pesos argentinos, 8 mil pesos chilenos, 180 pesos mexicanos, o 8 dólares."
+    "netflix_perfil_individual": {
+      "pregunta": "Servicio de Streaming: Netflix (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$90"
     },
-    "bot_personalizado_unico": {
-      "pregunta": "Bot personalizado (único pago)",
-      "respuesta": "Es un bot de WhatsApp completamente personalizado con tus datos: foto/logo, redes sociales, canal de WhatsApp, etiquetas generales y nombre del bot. Que solo se paga una vez y que contiene comandos de gestión de grupos, descargas de redes sociales (Instagram, Facebook, TikTok, YouTube), inteligencia artificial (ChatGPT o Gemini), stickers y más de 305 comandos.",
-      "precio": "El costo del Bot personalizado (único pago) es de 20 soles peruanos, 6 mil pesos argentinos, 6 mil pesos chilenos, 120 pesos mexicanos, o 6 dólares."
+    "max_perfil_individual": {
+      "pregunta": "Servicio de Streaming: Max (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$45"
     },
-    "cashflow": {
-      "pregunta": "PayBalance",
-      "respuesta": "PayBalance es un bot de gestión de clientes diseñado para facilitar el seguimiento de pagos, enviar recordatorios automáticos y administrar tus clientes de manera eficiente.",
-      "precio": "El costo de PayBalance es de 5 soles peruanos, 1500 pesos argentinos, 1500 pesos chilenos, 40 pesos mexicanos, o 1.5 dólares."
+    "disney_plus_perfil_individual": {
+      "pregunta": "Servicio de Streaming: Disney+ (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$60"
+    },
+    "vix_perfil_individual": {
+      "pregunta": "Servicio de Streaming: ViX (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$50"
+    },
+    "paramount_plus_perfil_individual": {
+      "pregunta": "Servicio de Streaming: Paramount+ (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$35"
+    },
+    "crunchyroll_perfil_individual": {
+      "pregunta": "Servicio de Streaming: Crunchyroll (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$45"
+    },
+    "prime_video_perfil_individual": {
+      "pregunta": "Servicio de Streaming: Prime Video (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$45"
+    },
+    "youtube_premium_perfil_individual": {
+      "pregunta": "Servicio de Streaming: YouTube Premium (perfil individual)",
+      "respuesta": "📆 Duración: 1 mes\n✅ Garantía: 25 días\n📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.",
+      "precio": "$60"
     }
   },
-  "mensajeDespedidaInactividad": "Hola, parece que la conversación terminó. Soy tu asistente PayBalance. Si necesitas algo más, puedes reactivar la conversación enviando un nuevo mensaje o tocando el botón.",
-  "chatGreeting": "Hola {user} soy PayBalance un asistente virtual y estoy aqui para atenderte de la mejor manera posible"
+  "mensajeDespedidaInactividad": "Hola, parece que la conversación terminó. Soy tu asistente ConnectManzanillo AI. Si necesitas algo más, puedes reactivar la conversación enviando un nuevo mensaje o tocando el botón.",
+  "chatGreeting": "Hola {user} soy ConnectManzanillo AI un asistente virtual y estoy aqui para atenderte de la mejor manera posible"
 }
