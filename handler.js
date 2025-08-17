@@ -47,7 +47,7 @@ const normalizarNumero = (numero) => {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BOT_OWNER_NUMBER = '5217771303481';
+const BOT_OWNER_NUMBER = '5215566834948';
 const INACTIVITY_TIMEOUT_MS = 20 * 60 * 1000;
 const RESET_INTERVAL_MS = 12 * 60 * 60 * 1000;
 
@@ -73,8 +73,8 @@ const loadConfigBot = () => {
         mensajeBienvenida: "¡Hola {user}! Soy tu bot asistente de pagos. ¿En qué puedo ayudarte hoy?",
         mensajeDespedida: "¡Hasta pronto! Esperamos verte de nuevo.",
         faqs: {},
-        mensajeDespedidaInactividad: "Hola, parece que la conversación terminó. Soy tu asistente PayBalance. ¿Necesitas algo más? Puedes reactivar la conversación enviando un nuevo mensaje o tocando el botón.",
-        chatGreeting: "Hola soy PayBalance, un asistente virtual. ¿Podrías brindarme tu nombre y decirme cuál es el motivo de tu consulta?"
+        mensajeDespedidaInactividad: "Hola, parece que la conversación terminó. Soy tu asistente ConnectManzanillo AI. ¿Necesitas algo más? Puedes reactivar la conversación enviando un nuevo mensaje o tocando el botón.",
+        chatGreeting: "Hola soy ConnectManzanillo AI, un asistente virtual. ¿Podrías brindarme tu nombre y decirme cuál es el motivo de tu consulta?"
     };
 };
 
@@ -167,7 +167,7 @@ const sendWelcomeMessage = async (m, conn) => {
     let welcomeMessage = '';
 
     if (!userChatData.nombre) {
-        welcomeMessage = "¡Hola! soy PayBalance, un asistente virtual y estoy aqui para atenderte. Por favor indicame tu nombre para brindarte los servicios disponibles.";
+        welcomeMessage = "¡Hola! soy ConnectManzanillo AI, un asistente virtual y estoy aqui para atenderte. Por favor indicame tu nombre para brindarte los servicios disponibles.";
         await m.reply(welcomeMessage);
         
         await new Promise((resolve, reject) => {
@@ -756,7 +756,7 @@ export async function handler(m, conn, store) {
                         `Datos previos de la conversación con este usuario: ${JSON.stringify(userChatData)}.` :
                         `No hay datos previos de conversación con este usuario.`;
                         
-                    const personaPrompt = `Eres CashFlow, un asistente virtual profesional para la atención al cliente de Richetti. Tu objetivo es ayudar a los clientes con consultas sobre pagos y servicios. No uses frases como "Estoy aquí para ayudarte", "Como tu asistente...", "Como un asistente virtual" o similares. Ve directo al punto y sé conciso.
+                    const personaPrompt = `Eres ConnectManzanillo AI, un asistente virtual profesional para la atención al cliente de Richetti. Tu objetivo es ayudar a los clientes con consultas sobre pagos y servicios. No uses frases como "Estoy aquí para ayudarte", "Como tu asistente...", "Como un asistente virtual" o similares. Ve directo al punto y sé conciso.
                     
                     El nombre del usuario es ${userChatData.nombre || 'el usuario'} y el historial de chat con datos previos es: ${JSON.stringify(userChatData)}.
                     
@@ -771,10 +771,7 @@ export async function handler(m, conn, store) {
                     ${clientInfoPrompt}
                     
                     Has aprendido que tus servicios son:
-                    - MichiBot exclusivo (pago mensual): Un bot de WhatsApp con gestión de grupos, descargas de redes sociales, IA, stickers y más.
-                    - Bot personalizado (pago mensual): Similar a MichiBot, pero con personalización de tus datos y logo.
-                    - Bot personalizado (único pago): La misma versión personalizada, pero con un solo pago.
-                    - CashFlow: Un bot de gestión de clientes para seguimiento de pagos y recordatorios automáticos.`;
+                    - Grupo VIP Conect Manzanillo – Comunicados - $50 mensuales, Netflix – $90, Max – $45, Disney+ – $60, ViX – $50, Paramount+ – $35, Crunchyroll – $45, Prime Video – $45, YouTube Premium – $60 y que tienen una 📆 Duración: 1 mes, ✅ Garantía: 25 días y 📌 En caso de fallo o caída del servicio, se ofrece reposición sin costo.`;
                     
                     const encodedContent = encodeURIComponent(personaPrompt);
                     const encodedText = encodeURIComponent(m.text);
