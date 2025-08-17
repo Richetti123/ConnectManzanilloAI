@@ -327,7 +327,7 @@ async function startBot() {
         }),
         printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
         mobile: MethodMobile,
-        browser: opcion == '1' ? ['PayBalance', 'Desktop', '3.0'] : methodCodeQR ? ['PayBalance', 'Desktop', '3.0'] : ["PayBalance", "Chrome", "20.0.04"],
+        browser: opcion == '1' ? ['ConnectManzanillo AI', 'Desktop', '3.0'] : methodCodeQR ? ['ConnectManzanillo AI', 'Desktop', '3.0'] : ["ConnectManzanillo AI", "Chrome", "20.0.04"],
         auth: state,
         generateHighQualityLinkPreview: true,
         msgRetryCounterCache,
